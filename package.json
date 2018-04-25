@@ -1,0 +1,38 @@
+{
+  "name": "restify-ts-seed",
+  "version": "0.0.1",
+  "description": "a typescript restify seed project",
+  "main": "index.js",
+  "author": "jquagliatini",
+  "license": "CC BY-NC-SA 4.0",
+  "private": true,
+  "dependencies": {
+    "restify": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/restify": "^5.0.7",
+    "concurrently": "^3.5.1",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.3",
+    "ts-jest": "^22.4.4",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.8.0",
+    "tslint-config-prettier": "^1.12.0",
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest",
+    "jest": "jest",
+    "start": "concurrently \"tsc -w\" \"nodemon index.js\"",
+    "dist": "tsc --outDir dist"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "\\.spec\\.ts$",
+    "moduleFileExtensions": ["js", "ts", "json", "node"]
+  }
+}
