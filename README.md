@@ -89,7 +89,7 @@ together with the [prettier extension][ext:prettier]
 
 * [x] Create a basic working project
 * [x] Add a test example
-* [ ] Change `preflightMiddleware` to use `debugInfo`
+* [x] Change `preflightMiddleware` to use `debugInfo`
 * [ ] Add logging elements
 * [ ] Add a data storage (in memory or SQLite)
 * [ ] Replace `/hello` route with `/signin`+`/signup` route and JWT
