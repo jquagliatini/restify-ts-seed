@@ -38,8 +38,8 @@ behaviour (headers and CORS) would be to create a specific `opt` route.
 
 [url:cors]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 [url:fetch-spec]: https://fetch.spec.whatwg.org/#forbidden-header-name
-[file:cm]: ../blob/master/src/controllers/CorsController.ts
-[file:pm]: ../blob/master/src/middlewares/preflightMiddleware.ts
+[file:cm]: src/controllers/CorsController.ts
+[file:pm]: src/middlewares/preflightMiddleware.ts
 
 ### Configuration
 
@@ -48,7 +48,7 @@ To tweak the behaviour of the server, you may want to use a combination of the
 prevalence over envvars. If you need to modify this behaviour,
 check [`utils/configFactory.ts`][file:cf].
 
-[file:cf]: ../blob/master/src/utils/configFactory.ts
+[file:cf]: src/utils/configFactory.ts
 
 ## Usage
 
