@@ -12,10 +12,7 @@ This project comes with some predefined middlewares.
 
 [`preflightMiddleware`][file:pm] provides an helper to automatically
 register handlers for existing route on `OPTIONS` requests (I personally prefer
-preflight, hence the name). I need to write a disclaimer here, it relies heavily
-on some reverse-engineering I did by debugging the request inside the middleware.
-It may need to change in the future and rely on the API (for example the
-`debugInfo` method, see the [ROADMAP](#roadmap)).
+preflight, hence the name).
 
 [`corsMiddleware`][file:cm] adds [CORS][url:cors] headers to provide a correct
 response to the client. At the moment 3 headers are sent as CORS:
